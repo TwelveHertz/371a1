@@ -1,0 +1,8 @@
+module buttonPressDecoder (newClock, KEY, buttonInformation);
+
+input newClock;
+input [3:0] KEY;
+
+
+output reg [4:0] buttonInformation;
+

@@ -1,0 +1,79 @@
+// Ring counter for verilog
+// Can be used for matrix keyboard
+
+module RingCounter (CLOCK_50, LEDG, ROW, COL);
+
+	input CLOCK_50;
+	input [3:0] ROW;
+		
+	output reg [3:0] COL = 4'b1110;
+	output reg [7:0] LEDG;
+	
+	reg [25:0] counter;
+	reg [7:0] values;
+		
+	always @(posedge CLOCK_50)
+	begin
+	
+		counter <= counter + 1;
+		if (counter == 1000000) // Clock frequency: 50MHz, but we're taking it down to 50Hz
+		begin
+			// cycle through our highs and lows
+			COL <= {COL[2:0], COL[3]};
+			counter <= 0;
+			// concatenate the rows and columns
+			values <= {COL[0], COL[1], COL[2], COL[3], ROW[0], ROW[1], ROW[2], ROW[3]};
+		end
+	end
+	
+	
+	
+endmodule
+
+
+
+module Decoder (values, CLOCK_50, KEY, LEDG)
+
+	input CLOCK_50;
+	input [5:0] values;
+	reg [25:0] counter;
+	
+	
+	output red [5:0] KEY;
+	
+always @ (posedge CLOCK_50)
+begin
+
+counter <= counter + 1;
+
+end
+		always @(values)
+		begin
+			case(values)
+			begin
+			end
+			8'b01110111: LEDG <= 5'b10001;
+			8'b10110111: LEDG <= 5'b10010;
+			8'b11010111: LEDG <= 5'b10011;
+			8'b11100111: LEDG <= 5'b11111;
+			8'b01111011: LEDG <= 5'b10100;
+			8'b10111011: LEDG <= 5'b10101;
+			8'b11011011: LEDG <= 5'b10110;
+			8'b11101011: LEDG <= 5'b11110;
+			8'b01111101: LEDG <= 5'b10111;
+			8'b10111101: LEDG <= 5'b11000;
+			8'b11011101: LEDG <= 5'b11001;
+			8'b11101101: LEDG <= 5'b11101;
+			8'b01111110: LEDG <= 5'b11010;
+			8'b10111110: LEDG <= 5'b10000;
+			8'b11011110: LEDG <= 5'b11011;
+			8'b11101110: LEDG <= 5'b11100;
+			// Default
+			8'b11111111: LEDG <= 5'b00000;
+			endcase
+		end
+		
+
+	
+endmodule
+		

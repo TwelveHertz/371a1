@@ -1,0 +1,17 @@
+module displayMUX (disp_sel, BCDoperand, operatorPulse, answer);
+	
+	input [1:0] disp_sel;
+	input [11:0] BCDoperand;
+	input [23:0] BCDanswer;
+	
+	
+	always@(posedge operatorPulse[4])
+	begin
+		case(operatorPulse[3:0])
+		4'b1111: answer = operandA + operandB;
+		4'b1110: answer = operandA - operandB;
+		4'b1101: answer = operandA * operandB;
+		endcase
+	end
+		
+endmodule

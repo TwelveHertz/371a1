@@ -1,0 +1,26 @@
+module bcdDecoder(sign, input1, input2, input3, binaryOutput);
+
+	input sign;
+	// Note that inputs will only be of values 0-9. Therefore, the maximum valeu is 999 which gives
+	// an output of 11'b01111100111 for 999 and 11'b10000011001 for -999 (negative indicated by a
+	// sign bit of 1).
+	input [4:0] input1; // input 1 indicates the LSB
+	input [4:0] input2;
+	input [4:0] input3; // input 3 indicates the MSB
+
+	//output reg [17:0] LEDR;
+	output reg signed [10:0] binaryOutput; // 11 bits to store a 2's compliment number from -999 to 999 2^n+1
+
+
+	always@(input1, input2, input3)
+	begin
+	// Binary output = LSB*1 + ... + MSB*100
+	// note that in verilog, multiplication uses context-determined expression. s indicates signed, though it is currently redundant.
+	// it could be used if we decide that input1, 2, or 3 are signed.
+	binaryOutput = input1[3:0]*11'sb00000000001 + input2[3:0]*11'sb00000001010 + input3[3:0]*11'sb00001100100;
+	
+	if (sign == 1'b1) binaryOutput = ~binaryOutput + 1'b1; // Conversion into 2's compliment negative
+	//LEDR <= binaryOutput;
+	end
+
+endmodule

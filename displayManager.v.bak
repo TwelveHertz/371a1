@@ -1,0 +1,35 @@
+module displayManager (operand, answer, state, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7);
+	input [11:0] operand;
+	input [31:0] answer;
+	input state; //0 for operand, 1 for answer
+	output reg [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
+	
+	reg [3:0]blank = 4'b1111;
+	
+	always@(*);
+	begin
+		case(state)
+		1'b0: begin
+		displayOperand dO0(operand[3:0], HEX0);
+		displayOperand dO1(operand[7:4], HEX1);
+		displayOperand dO2(operand[11:8], HEX2);
+		displayOperand dO3(blank, HEX3);
+		displayOperand dO4(blank, HEX4);
+		displayOperand dO5(blank, HEX5);
+		displayOperand dO6(blank, HEX6);
+		displayOperand dO7(blank, HEX7);
+		end
+			
+		1'b1: begin
+		displayOperand dA0(answer[3:0], HEX0);
+		displayOperand dA1(answer[7:4], HEX1);
+		displayOperand dA2(answer[11:8], HEX2);
+		displayOperand dA3(answer[15:12], HEX3);
+		displayOperand dA4(answer[19:16], HEX4);
+		displayOperand dA5(answer[23:20], HEX5);
+		displayOperand dA6(answer[27:24], HEX6);
+		displayOperand dA7(answer[31:28], HEX7);
+		end
+		endcase
+	endmodule
+endmodule

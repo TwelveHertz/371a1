@@ -1,0 +1,28 @@
+module twoClockPulse(pulse, doublePulse, clock)
+	input [4:0] pulse;
+	input clock;
+
+
+	output reg [4:0] doublePulse;
+
+	reg [1:0] count;
+
+	always @(posedge clock)
+	begin
+
+		if (pulse[4] == 1)
+		begin
+			doubelPulse <= pulse;
+			count <= 2'b01;
+
+
+		end
+		else if (count == 2'b01)
+		begin
+
+
+
+		end
+	end
+
+endmodule

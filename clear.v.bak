@@ -1,0 +1,15 @@
+module clear (clear, BCDoperand);
+	
+	input clear;
+	output reg [11:0] BCDoperand;
+	
+	always@(disp_sel)
+	begin
+		case(disp_sel)
+		2'b00: register = storeA;
+		2'b10: register = storeB;
+		2'b11: register = BCDanswer;
+		endcase
+	end
+		
+endmodule

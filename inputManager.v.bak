@@ -1,0 +1,8 @@
+
+
+
+module inputmanager(CLOCK_50, KEY, );
+
+
+input CLOCK_50;
+input KEY
