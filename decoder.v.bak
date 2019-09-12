@@ -1,6 +1,0 @@
-
-module decoder(values, KEY);
-
-input reg [7:0] values;
-
-output reg [4:0] KEY; 
