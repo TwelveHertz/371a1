@@ -1,0 +1,461 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\miniProj-2.5\simulation\modelsim
+vALU
+INedBl5ezc@`@g63ngdYOM0
+V:8Qk`fK[b=3UV0mE58Tgn0
+Z1 dF:\miniProj-2.5\simulation\modelsim
+w1539413226
+8F:/miniProj-2.5/ALU.v
+FF:/miniProj-2.5/ALU.v
+L0 1
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/miniProj-2.5 -O0
+n@a@l@u
+!s100 QEV<0UDU?I@IL7VbAKWTI0
+!s85 0
+!s108 1539480448.313000
+!s107 F:/miniProj-2.5/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/ALU.v|
+!s101 -O0
+vbcdDecoder
+IOhY_?Z2gJW]o=L?Q`?]9a1
+VO^aoF`0_boDh:=TlTncM@3
+R1
+w1539336332
+8F:/miniProj-2.5/bcdDecoder.v
+FF:/miniProj-2.5/bcdDecoder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nbcd@decoder
+!s100 :PGRD7X6cZfP?JEcWK>S@3
+!s85 0
+!s108 1539480446.847000
+!s107 F:/miniProj-2.5/bcdDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/bcdDecoder.v|
+!s101 -O0
+vbcdEncoder
+IMZ3GNd?532Lh<F;_ZWI<L1
+VM4O=h<Xk64;78<Wd8:DnJ1
+R1
+w1539294744
+8F:/miniProj-2.5/bcdEncoder.v
+FF:/miniProj-2.5/bcdEncoder.v
+L0 8
+R2
+r1
+31
+R3
+R4
+nbcd@encoder
+!s100 DYQghz7??M@4PMmP5MVAP2
+!s85 0
+!s108 1539480447.081000
+!s107 F:/miniProj-2.5/bcdEncoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/bcdEncoder.v|
+!s101 -O0
+vbuttonPressDecoder
+IXJE[9Pz0=BXRnX@gO@XUj0
+V=?3cH_4o`?7g]hn0Njdd^3
+R1
+w1539423206
+8F:/miniProj-2.5/buttonPressDecoder.v
+FF:/miniProj-2.5/buttonPressDecoder.v
+L0 4
+R2
+r1
+31
+R3
+R4
+nbutton@press@decoder
+!s100 A8b5`j>mgDB4gP0UTQSET0
+!s85 0
+!s108 1539480445.386000
+!s107 F:/miniProj-2.5/buttonPressDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/buttonPressDecoder.v|
+!s101 -O0
+vclockDivider
+I]C6?PhVBZkMUBUS;of]K[2
+V9h[XVlRZ6U6dY7H]<V9nn1
+R1
+w1539069808
+8F:/miniProj-2.5/clockDivider.v
+FF:/miniProj-2.5/clockDivider.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nclock@divider
+!s100 eH74>nC==DB_T^2`g5iI<0
+!s85 0
+!s108 1539480444.672000
+!s107 F:/miniProj-2.5/clockDivider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/clockDivider.v|
+!s101 -O0
+vdebouncer
+I8HILL70;;o6obX^l;b=_O0
+VgZ^od8@Az]8QdDm7[WjRf3
+R1
+w1539334812
+8F:/miniProj-2.5/debouncer.v
+FF:/miniProj-2.5/debouncer.v
+L0 4
+R2
+r1
+31
+R3
+R4
+!s100 zB=WdlWB=>7S2[02nV`FN1
+!s85 0
+!s108 1539480447.823000
+!s107 F:/miniProj-2.5/debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/debouncer.v|
+!s101 -O0
+vdecoder
+Iiml]c<UaJVESMJ_ad^Y^:0
+VRQDJTD_c:JWU0>1[fXNQF1
+R1
+w1539391786
+8F:/miniProj-2.5/decoder.v
+FF:/miniProj-2.5/decoder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 NKS2RJA[dWA0<AJZZzjR_1
+!s85 0
+!s108 1539480445.149000
+!s107 F:/miniProj-2.5/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/decoder.v|
+!s101 -O0
+vdisplayManager
+I<Ki]b?A]46Ml8iWeQT:Am3
+V<j`_MMPF3iGHG`iHhAB=Y1
+R1
+w1539233596
+8F:/miniProj-2.5/displayManager.v
+FF:/miniProj-2.5/displayManager.v
+L0 1
+R2
+r1
+31
+R3
+R4
+ndisplay@manager
+!s100 C?OUZeNkK2zYl;c8B1b5X2
+!s85 0
+!s108 1539480446.608000
+!s107 F:/miniProj-2.5/displayManager.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/displayManager.v|
+!s101 -O0
+vdisplayMUX
+Igj:<Vgh]b^e5OXHVQ]LA11
+V4k5YjLO>3PLb>zKUdUXe@1
+R1
+w1539476364
+8F:/miniProj-2.5/displayMUX.v
+FF:/miniProj-2.5/displayMUX.v
+L0 1
+R2
+r1
+31
+R3
+R4
+ndisplay@m@u@x
+!s100 bKekf6S_^ee6Wo^c1SIDZ1
+!s85 0
+!s108 1539480448.547000
+!s107 F:/miniProj-2.5/displayMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/displayMUX.v|
+!s101 -O0
+vdisplayOperand
+InO]iU:c5PdLVaLQO5TF;@1
+VJO9glP`YX?Ofe1D3eU8?k2
+R1
+w1539477434
+8F:/miniProj-2.5/displayOperand.v
+FF:/miniProj-2.5/displayOperand.v
+L0 1
+R2
+r1
+31
+R3
+R4
+ndisplay@operand
+!s100 JV7X[67`Tn8bNm]RaaPXK0
+!s85 0
+!s108 1539480445.857000
+!s107 F:/miniProj-2.5/displayOperand.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/displayOperand.v|
+!s101 -O0
+vFSM
+IlzYNcj9dgEf9dMfQ91mDh3
+V2J_POUe8P8g7>MC[<@FLV0
+R1
+w1539469742
+8F:/miniProj-2.5/FSM.v
+FF:/miniProj-2.5/FSM.v
+L0 8
+R2
+r1
+31
+R3
+R4
+n@f@s@m
+!s100 cdE`Q=]oH9>;FU7meg4Q52
+!s85 0
+!s108 1539480446.359000
+!s107 F:/miniProj-2.5/FSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/FSM.v|
+!s101 -O0
+vinputManager
+I@Ozi^AU>A79bGDTLM^DOc1
+VWQ24FD;D1zEnC@_]_iF=41
+R1
+w1539422888
+8F:/miniProj-2.5/inputManager.v
+FF:/miniProj-2.5/inputManager.v
+L0 12
+R2
+r1
+31
+R3
+ninput@manager
+R4
+!s100 j5OgRcQP667jg][bJzCfi3
+!s85 0
+!s108 1539480444.376000
+!s107 F:/miniProj-2.5/inputManager.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/inputManager.v|
+!s101 -O0
+vmatrixRingCounter
+IZmJ594Wa_T@Lz8JIJlk<;1
+V;AeMaoIE:od2knQ5iW7YS1
+R1
+w1539394650
+8F:/miniProj-2.5/matrixRingCounter.v
+FF:/miniProj-2.5/matrixRingCounter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmatrix@ring@counter
+!s100 6_aIfnKA8[E:=]zkRj@[=3
+!s85 0
+!s108 1539480444.909000
+!s107 F:/miniProj-2.5/matrixRingCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/matrixRingCounter.v|
+!s101 -O0
+vmemoryManagement
+IXDnYnQ_[X[lbjH_>K@Nem0
+V[T1dYUmbX^YPN7KRz9lX@1
+R1
+w1539477278
+8F:/miniProj-2.5/memoryManagement.v
+FF:/miniProj-2.5/memoryManagement.v
+L0 4
+R2
+r1
+31
+R3
+R4
+nmemory@management
+!s100 <LWNgS<<RRd78BVeMKma;2
+!s85 0
+!s108 1539480447.579000
+!s107 F:/miniProj-2.5/memoryManagement.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/memoryManagement.v|
+!s101 -O0
+vnegativeSwitchDecoder
+Iomb?h?zRWMWdjU^jI_9FG1
+VI<1TG=Oh9zAKnW6Y91HJ23
+R1
+w1539337994
+8F:/miniProj-2.5/negativeSwitchDecoder.v
+FF:/miniProj-2.5/negativeSwitchDecoder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nnegative@switch@decoder
+!s100 9X3X<0N5hELUdC9DG:0J:0
+!s85 0
+!s108 1539480448.917000
+!s107 F:/miniProj-2.5/negativeSwitchDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/negativeSwitchDecoder.v|
+!s101 -O0
+vpulseSignal
+IG:d[>D1nC;J[E]cNLmgdf2
+V;=e2VIXzomYj_fL8;nzWl3
+R1
+w1539324604
+8F:/miniProj-2.5/pulseSignal.v
+FF:/miniProj-2.5/pulseSignal.v
+L0 3
+R2
+r1
+31
+R3
+R4
+npulse@signal
+!s100 YFgFQVQDDQW=3Q`F>R?aF0
+!s85 0
+!s108 1539480448.074000
+!s107 F:/miniProj-2.5/pulseSignal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/pulseSignal.v|
+!s101 -O0
+vrecall
+I^2^=LF5j4b=?m9aJj8RYT0
+VZ_WH7`@Pn0@HG=MzmnHPH3
+R1
+w1539469340
+8F:/miniProj-2.5/recall.v
+FF:/miniProj-2.5/recall.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 c@hZ7DgjM?1PXRUMQf_zi2
+!s85 0
+!s108 1539480449.400000
+!s107 F:/miniProj-2.5/recall.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/recall.v|
+!s101 -O0
+vregisterTransfer
+I4U^>B`<P87eMo^e][c3:o2
+Vfo4[EQ;CIlO5jW?aVO^IE3
+R1
+w1539479542
+8F:/miniProj-2.5/registerTransfer.v
+FF:/miniProj-2.5/registerTransfer.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nregister@transfer
+!s100 A5DZ;Yd`SJS6mQaXoae2i3
+!s85 0
+!s108 1539480447.339000
+!s107 F:/miniProj-2.5/registerTransfer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/registerTransfer.v|
+!s101 -O0
+vstoreBCD
+Ic=U[gF>LdSHGiZDgIZ^zD2
+VmFHWXGY;Bi1W7j?6RSj6`0
+R1
+w1539473702
+8F:/miniProj-2.5/storeBCD.v
+FF:/miniProj-2.5/storeBCD.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nstore@b@c@d
+!s100 ]bM`e1nA=3MWbzMWcITlD0
+!s85 0
+!s108 1539480445.620000
+!s107 F:/miniProj-2.5/storeBCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/storeBCD.v|
+!s101 -O0
+vstoreOperator
+IF3g>HeoKQdQY]NZn[?[m<3
+V[1mO=Jf0TFQ>;>T2ROj9m0
+R1
+w1539469360
+8F:/miniProj-2.5/storeOperator.v
+FF:/miniProj-2.5/storeOperator.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nstore@operator
+!s100 7O9<O6On?z::^nlnzLXZ50
+!s85 0
+!s108 1539480449.154000
+!s107 F:/miniProj-2.5/storeOperator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/storeOperator.v|
+!s101 -O0
+vtoggle
+!s100 Tl2K8FC<VL]NcP2?Rz_l^0
+I1C3<SF26]N11=oNj]1dGk0
+V6K34faL5SbLSY`9BeLSic0
+R1
+w1539478412
+8F:/miniProj-2.5/toggle.v
+FF:/miniProj-2.5/toggle.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1539480449.905000
+!s107 F:/miniProj-2.5/toggle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/toggle.v|
+!s101 -O0
+R3
+R4
+vTOP
+IPDPi@DCKOXJU4Q0@;KOX=1
+VG^TJ8RngKkzC_n;E=MVi60
+R1
+w1539480362
+8F:/miniProj-2.5/TOP.v
+FF:/miniProj-2.5/TOP.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@t@o@p
+!s100 >9Aal3;Tdg4cfYbZfifdi1
+!s85 0
+!s108 1539480446.097000
+!s107 F:/miniProj-2.5/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/TOP.v|
+!s101 -O0
+vtwoClockPulse
+I[d4NCIR?=7SD7Ga]Z06Y60
+VW^OOWZgUz^G<lfnZ0aETI2
+R1
+w1539471896
+8F:/miniProj-2.5/twoClockPulse.v
+FF:/miniProj-2.5/twoClockPulse.v
+L0 1
+R2
+r1
+31
+R3
+R4
+ntwo@clock@pulse
+!s100 Dc=NjbW4`9`Gd^2I64EY93
+!s85 0
+!s108 1539480449.647000
+!s107 F:/miniProj-2.5/twoClockPulse.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/miniProj-2.5|F:/miniProj-2.5/twoClockPulse.v|
+!s101 -O0

@@ -1,0 +1,274 @@
+# Reading C:/Altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do Mecheng371P2_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/inputManager.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module inputManager
+# 
+# Top level modules:
+# 	inputManager
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/clockDivider.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module clockDivider
+# 
+# Top level modules:
+# 	clockDivider
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/matrixRingCounter.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module matrixRingCounter
+# 
+# Top level modules:
+# 	matrixRingCounter
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/buttonPressDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module buttonPressDecoder
+# 
+# Top level modules:
+# 	buttonPressDecoder
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/storeBCD.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module storeBCD
+# 
+# Top level modules:
+# 	storeBCD
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/displayOperand.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module displayOperand
+# 
+# Top level modules:
+# 	displayOperand
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/FSM.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module FSM
+# 
+# Top level modules:
+# 	FSM
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/displayManager.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module displayManager
+# 
+# Top level modules:
+# 	displayManager
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/bcdDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module bcdDecoder
+# 
+# Top level modules:
+# 	bcdDecoder
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/bcdEncoder.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module bcdEncoder
+# 
+# Top level modules:
+# 	bcdEncoder
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/registerTransfer.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module registerTransfer
+# 
+# Top level modules:
+# 	registerTransfer
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/memoryManagement.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module memoryManagement
+# 
+# Top level modules:
+# 	memoryManagement
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/debouncer.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/pulseSignal.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module pulseSignal
+# 
+# Top level modules:
+# 	pulseSignal
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/displayMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module displayMUX
+# 
+# Top level modules:
+# 	displayMUX
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/negativeSwitchDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module negativeSwitchDecoder
+# 
+# Top level modules:
+# 	negativeSwitchDecoder
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/storeOperator.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module storeOperator
+# 
+# Top level modules:
+# 	storeOperator
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/recall.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module recall
+# 
+# Top level modules:
+# 	recall
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/twoClockPulse.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module twoClockPulse
+# 
+# Top level modules:
+# 	twoClockPulse
+# vlog -vlog01compat -work work +incdir+F:/miniProj-2.5 {F:/miniProj-2.5/toggle.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module toggle
+# 
+# Top level modules:
+# 	toggle
+# 
+#  
+vsim -voptargs=+acc work.TOP
+# vsim -voptargs=+acc work.TOP 
+# Loading work.TOP
+# Loading work.inputManager
+# Loading work.clockDivider
+# Loading work.matrixRingCounter
+# Loading work.decoder
+# Loading work.debouncer
+# Loading work.pulseSignal
+# Loading work.buttonPressDecoder
+# Loading work.negativeSwitchDecoder
+# Loading work.toggle
+# Loading work.storeBCD
+# Loading work.twoClockPulse
+# Loading work.bcdDecoder
+# Loading work.ALU
+# Loading work.bcdEncoder
+# Loading work.storeOperator
+# Loading work.FSM
+# Loading work.recall
+# Loading work.registerTransfer
+# Loading work.memoryManagement
+# Loading work.displayMUX
+# Loading work.displayManager
+# Loading work.displayOperand
+# ** Warning: (vsim-3015) F:/miniProj-2.5/TOP.v(28): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'negativePulse'. The port definition is at: F:/miniProj-2.5/inputManager.v(12).
+#         Region: /TOP/iM1
+# ** Warning: (vsim-3015) F:/miniProj-2.5/inputManager.v(30): [PCDPC] - Port size (20 or 20) does not match connection size (32) for port 'preScaler'. The port definition is at: F:/miniProj-2.5/clockDivider.v(1).
+#         Region: /TOP/iM1/clock500Hz
+# ** Warning: (vsim-3015) F:/miniProj-2.5/TOP.v(30): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'pulse'. The port definition is at: F:/miniProj-2.5/toggle.v(1).
+#         Region: /TOP/toggleNegative
+# ** Warning: (vsim-3017) F:/miniProj-2.5/TOP.v(54): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /TOP/alu1
+add wave  \
+sim:/TOP/clock_500Hz
+force -freeze sim:/TOP/clock_500Hz 1 0, 0 {50 ps} -r 100
+add wave  \
+sim:/TOP/ROW
+add wave  \
+sim:/TOP/SW
+add wave  \
+sim:/TOP/COL
+add wave  \
+sim:/TOP/negativePulse
+add wave  \
+sim:/TOP/toggleNegativeSignal
+add wave  \
+sim:/TOP/BCDoperand
+add wave  \
+sim:/TOP/storeA
+run
+force -freeze sim:/TOP/SW 0 0
+run
+force -freeze sim:/TOP/SW 100000000000000000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/ROW 0111 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/ROW 1111 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/ROW 0111 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/SW 000000000000000000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/ROW 1111 0
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/ROW 1011 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/TOP/SW 100000000000000000 0
+run
+run
+run
+run
+run
+run

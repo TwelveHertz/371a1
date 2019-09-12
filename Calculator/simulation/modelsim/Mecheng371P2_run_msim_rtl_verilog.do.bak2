@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/inputManager.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/clockDivider.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/matrixRingCounter.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/decoder.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/pulseDebouncer.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/buttonPressDecoder.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/storeBCD.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/displayOperand.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/TOP.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/displayManager.v}
+vlog -vlog01compat -work work +incdir+E:/miniProj-1.4 {E:/miniProj-1.4/bcdEncoder.v}
+

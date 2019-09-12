@@ -1,0 +1,13 @@
+module toggle(pulse, toggledOutput);
+
+	input [4:0] pulse;
+
+	output reg toggledOutput;
+
+	always @(pulse)
+	begin
+		toggledOutput = ~toggledOutput;
+	end
+
+
+endmodule

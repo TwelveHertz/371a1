@@ -1,0 +1,24 @@
+module negativeSwitchDecoder(SW17, negativeKey)
+
+	input SW17;
+	output reg [4:0] negativeKey;
+	
+	
+	always @(SW17)
+	begin
+	
+		if (SW17)
+		begin
+			negativeKey <= 5'b10001;
+		end
+		else
+		begin
+			negativeKey <= 5'b0;
+		end
+	
+	end
+	
+	
+	
+endmodule
+	

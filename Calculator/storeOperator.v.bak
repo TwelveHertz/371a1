@@ -1,0 +1,14 @@
+module storeOperator (operatorPulse, storeOp);
+	input [4:0] equalPulse;
+	output [3:0] storeOp;
+	
+	always@(posedge equalPulse[4])
+	begin
+		case(operator)
+		4'b1111: answer = operandA + operandB;
+		4'b1110: answer = operandA - operandB;
+		4'b1101: answer = operandA * operandB;
+		endcase
+	end
+		
+endmodule

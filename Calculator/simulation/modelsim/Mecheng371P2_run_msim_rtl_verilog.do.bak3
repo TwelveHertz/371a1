@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/miniProj-1.5 {D:/miniProj-1.5/displayOperand.v}
+vlog -vlog01compat -work work +incdir+D:/miniProj-1.5 {D:/miniProj-1.5/TOP.v}
+vlog -vlog01compat -work work +incdir+D:/miniProj-1.5 {D:/miniProj-1.5/displayManager.v}
+vlog -vlog01compat -work work +incdir+D:/miniProj-1.5 {D:/miniProj-1.5/bcdEncoder.v}
+

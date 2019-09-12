@@ -1,0 +1,30 @@
+// This module takes in the input KEY which is the button press, and associated information, and outputs a cleaner keyPulse. 
+// keyPulse contains the same information as KEYS but gives the outputs as a pulse.
+module pulseDebouncer( KEY, CLOCK_50, keyPulse);
+
+	input [4:0] KEY;
+	input CLOCK_50;
+	output reg [4:0] keyPulse = 5'b00000;
+	reg Q = 0;
+	
+	// Synchronous work because we want a clean 1 clock pulse output
+	always @ (posedge CLOCK_50)
+	begin
+	
+	// Set this to 0 such that we can set the button later. Because its set here, the output has a full clock cycle before being set to 0. 
+	keyPulse <= 5'b00000;
+	
+	// If there is a button currently being pressed, whilst 1 clock cycle ago, there was no button press then we send a pulse through. i.e pulse the key on the rising edge
+	if ((KEY[4]) & ~Q)
+	begin
+		keyPulse <= KEY[4:0];
+	end
+	
+	// assign Q such that we store whether a button is being pressed currently for the next clock cycle.
+	Q <= KEY[4];
+	
+	
+	end
+	
+	endmodule
+	

@@ -1,0 +1,13 @@
+module recall (buttonPulse, ld_m);
+	input [4:0] operatorPulse;
+	output reg [3:0] storeOp;
+	
+	always@(posedge operatorPulse[4])
+		storeOp = operatorPulse [3:0];
+		
+endmodule
+
+				if (buttonPulse == 5'b10010)
+					ld_m = 1;
+				else 
+					ld_m = 0;
